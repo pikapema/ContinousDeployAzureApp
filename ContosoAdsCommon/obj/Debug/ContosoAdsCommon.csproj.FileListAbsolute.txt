@@ -1,0 +1,10 @@
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll.config
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.pdb
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\EntityFramework.dll
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\EntityFramework.xml
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.csprojResolveAssemblyReference.cache
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.dll
+C:\Users\kapeltol\Documents\GitHub\webapp\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="multitierappservice" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="multitierappservice/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="AzureWebJobsStorage-Web.config Connection String" description="" value="DefaultEndpointsProtocol=https;AccountName=multitierappservice1;AccountKey=bfTDpLg1bA7DpWUQLX1EsfGvON6UFNupxvzr/s0xgEWZoRjoYWcXHWz0E/i/j4rm2seeYYqR3d30NOWygWLA9g==" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsStorage']/@connectionString" />
+  </parameter>
+  <parameter name="ContosoAdsContext-Web.config Connection String" description="" value="Data Source=webapp-db-serv;Initial Catalog=webapp-db;Persist Security Info=True;User ID=pikapema;Password=Di97kapa13" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContosoAdsContext']/@connectionString" />
+  </parameter>
+</parameters>

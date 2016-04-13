@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ContosoAdsContext-Web.config Connection String" description="ContosoAdsContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB; Initial Catalog=ContosoAds; Integrated Security=True; MultipleActiveResultSets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContosoAdsContext']/@connectionString" />
+  </parameter>
+  <parameter name="AzureWebJobsStorage-Web.config Connection String" description="AzureWebJobsStorage Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=multitierappservice1;AccountKey=bfTDpLg1bA7DpWUQLX1EsfGvON6UFNupxvzr/s0xgEWZoRjoYWcXHWz0E/i/j4rm2seeYYqR3d30NOWygWLA9g==" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kapeltol\\Documents\\GitHub\\webapp\\ContosoAdsWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsStorage']/@connectionString" />
+  </parameter>
+</parameters>
